@@ -1,9 +1,9 @@
 # Java_coding_tasks (Weekly)
 
-Create a java file with your names under each week's package to practice.
+Create your own branch with your name.
 
-Commit and push after providing your solutions.
+Write your solutions, commit, push to your origin branch and create a pull request (from your branch --> master branch)
 
-All of us working on master branch so far.
+Assign anyone you would like.
 
 Any suggestion for modifications are more than welcome~
