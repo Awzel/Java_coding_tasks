@@ -1,6 +1,6 @@
 package Week01_Tasks;
 
-public class FINRA {
+public class FINRA_Zulpikar {
 
     /*
     FINRA :
