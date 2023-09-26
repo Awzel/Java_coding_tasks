@@ -1,6 +1,6 @@
 package src.Week01_Tasks;
 
-public class Warda_DividewithoutOperator {
+public class DividewithoutOperator_Warda {
     public static void main(String[] args) {
         int n1 = 15;
         int n2 = 5;
