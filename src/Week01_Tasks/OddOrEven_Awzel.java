@@ -1,6 +1,6 @@
 package Week01_Tasks;
 
-public class EvenOrOdd_Awzel {
+public class OddOrEven_Awzel {
 
     public static void main(String[] args) {
 
