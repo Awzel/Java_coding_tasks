@@ -1,4 +1,4 @@
-package src.Week01_Tasks;
+package Week01_Tasks;
 
 public class DividewithoutOperator_Warda {
     public static void main(String[] args) {
