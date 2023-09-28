@@ -13,7 +13,7 @@ public class DivideWithoutOperator_Warda {
 
         }
 
-        System.out.println(count+" with a remainder of "+(dividend));
+        System.out.println(count);
 
     }
 }
