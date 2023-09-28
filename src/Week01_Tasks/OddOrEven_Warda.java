@@ -1,7 +1,7 @@
 package Week01_Tasks;
 
 
-import java.util.Scanner;
+
 
 public class OddOrEven_Warda {
     public static void main(String[] args) {
