@@ -1,15 +1,29 @@
-package Week01_Tasks;
+package src.Week01_Tasks;
 
-public class DivideWithoutOperator_Zulpikar {
-
-
-    /*
-    Write a method that can divide two numbers without using division operator
-     */
-
+public class DivideWithoutOperator_Warda {
     public static void main(String[] args) {
+        int dividend = 25;
+        int divisor = 2;
+        int count=0;
 
-        System.out.println(divide(-50,5));
+        while (dividend>divisor||dividend==divisor){
+            count++;
+            dividend=dividend-divisor;
+
+
+        }
+
+        System.out.println(count);
+
+    }
+}
+/*2. Numbers -- Divide without/operator
+
+Write a method that can divide two numbers without using division operator*/
+
+/* COMPREHENSIVE ANSWER
+
+System.out.println(divide(-50,5));
 
     }
 
@@ -37,6 +51,4 @@ public class DivideWithoutOperator_Zulpikar {
             quotient++;
         }
 
-        return quotient;
-    }
-}
+        return quotient;*/

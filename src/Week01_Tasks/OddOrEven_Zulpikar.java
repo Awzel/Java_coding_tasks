@@ -1,6 +1,6 @@
 package Week01_Tasks;
 
-public class OddOrEven {
+public class OddOrEven_Zulpikar {
 
     /*
     Write a method which can identify given number is odd or even
