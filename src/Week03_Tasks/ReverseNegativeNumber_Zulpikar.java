@@ -15,6 +15,12 @@ public class ReverseNegativeNumber_Zulpikar {
 
         int number2 = -54321;
         System.out.println(reverseNegativeNumber(number2));
+
+        int number3 = -123456789;
+        System.out.println(reverseNegativeNumber2(number3));
+
+        int number4 = -54321;
+        System.out.println(reverseNegativeNumber2(number4));
     }
 
     public static int reverseNegativeNumber(int number) {
@@ -26,6 +32,28 @@ public class ReverseNegativeNumber_Zulpikar {
             number = number / 10; // 123456789 / 10 = 12345678 --> 12345678 / 10 = 1234567 --> and so on
         }
         return -reverse;
+    }
+
+
+    // solution 2
+    // using wrapper class to reverse negative number
+    public static int reverseNegativeNumber2(int number) {
+
+        number *= -1;
+        String numberStr = Integer.toString(number);
+
+        // Reverse the String
+        String reversedStr = "";
+        for (int i = numberStr.length() - 1; i >= 0; i--) {
+            reversedStr += numberStr.charAt(i);
+        }
+
+        // Convert the reversed String back to an integer
+        int reversedNumber = Integer.parseInt(reversedStr);
+
+        return -reversedNumber;
+
+
     }
 
 
