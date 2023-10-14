@@ -21,7 +21,7 @@ public class W3_Number_Prime {
 
     }
 
-// Test
+// Test 2
     public static void main(String[] args) {
         System.out.println("primeNumber() = " + isPrimeNumber(7));
         System.out.println("primeNumber() = " + isPrimeNumber(11));
