@@ -1,4 +1,4 @@
-package src.Week02_Tasks;
+package src.Week04_Tasks;
 
 public class RemoveDuplicates_Warda {
     public static void main(String[] args) {
