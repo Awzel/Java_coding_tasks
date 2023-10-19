@@ -1,4 +1,4 @@
-package Week02_Tasks;
+package week02_Tasks;
 
 public class PrintConsecutiveNumbers_Zulpikar {
 
