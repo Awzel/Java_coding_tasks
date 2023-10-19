@@ -1,4 +1,4 @@
-package Week01_Tasks;
+package week01_Tasks;
 
 public class FINRA_Zulpikar {
 

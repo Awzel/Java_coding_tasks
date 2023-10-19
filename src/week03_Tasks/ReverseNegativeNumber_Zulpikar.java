@@ -1,4 +1,4 @@
-package Week03_Tasks;
+package week03_Tasks;
 
 /*
 2. Numbers -- Reverse negative number
