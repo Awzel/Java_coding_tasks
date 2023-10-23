@@ -6,4 +6,16 @@ public class RemoveDuplicates_Sabina {
     //Write a return method that can remove the duplicated values from
     //String
     //Ex: removeDup("AAABBBCCC") ==> ABC
+
+
+    public static void main(String[] args) {
+
+
+
+    }
+
+
+
+
+
 }
