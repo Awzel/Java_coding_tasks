@@ -1,4 +1,4 @@
-package src.Week05_Tasks;
+package Week05_Tasks;
 
 public class UniqueString_Warda {
 
