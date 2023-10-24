@@ -1,0 +1,16 @@
+1. Numbers -- Swap Numbers
+
+  - Swap two variable' values without using a third variable
+
+2. Numbers -- Divisible by 3, 5, 15
+Write a program that can print the numbers between 1 ~ 100 that can be
+divisible by 3, 5, 15.
+if the number can be divisible by 3, 5, and 15, then it should only be displayed in DivisibleBy15 section
+if the number can be divisible by 3, but cannot be divisible by 15, then it should only be displayed in DivisibleBy3 section
+if the number can be divisible by 5, but cannot be divisible by 15, then it should only be displayed in DivisibleBy5 section
+
+
+
+3. Numbers -- print consecutive numbers
+Write a function:
+that, given a positive integer n, print the consecutive numbers between 1 ~ n, each on a new line. However, any number divisible by 2, 3, or 5 should be replaced by the word Codility, Test, or Coders, respectively. If a number is divisible by more than one of the numbers: 2, 3, or 5, it should be replaced by the word Codility, Test, or Coders, respectively in this given order. For example, numbers divisible by both 2 and 3 should be replaced by CodilityTest and numbers divisible by both 2 and 5 should be replaced by CodilityCoders. Numbers divisible by 2, 3, and 5 should be replaced by CodilityTestCoders.2 task pdf would not let me copy paste the requirements, please add them above if anyone can.
