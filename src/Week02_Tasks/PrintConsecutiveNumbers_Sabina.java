@@ -1,4 +1,4 @@
-package week2;
+package Week02_Tasks;
 
 public class PrintConsecutiveNumbers_Sabina {
 

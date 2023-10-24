@@ -1,4 +1,4 @@
-package src.Week02_Tasks.instructor;
+package Week02_Tasks.instructor;
 
 public class W2_Print_Consecutive_numbers {
 
