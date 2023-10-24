@@ -1,4 +1,4 @@
-package Week01_Tasks.Solutions;
+package Week01_Tasks.instructor;
 
 import java.util.Scanner;
 

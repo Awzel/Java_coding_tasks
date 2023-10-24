@@ -16,6 +16,8 @@ public class FindTheUnique_Sabina {
 
         System.out.println("uniqueChar(str) using SET = " + uniqueChar(str));
 
+        System.out.println(unique2("AAABBBCCCDEF"));
+
     }
 
 // 1. So, I am creating a method that accepts String argument and returns String value without duplicates
@@ -26,11 +28,11 @@ public class FindTheUnique_Sabina {
     //5. Once we iterate though we need a condition under which characters will be added into our output String
     //6. If output doesn't contain (char) each, it should be added
 
-    public static String uniqueCharacters(String str){
+    public static String uniqueCharacters(String str) {
         String output = "";
 
         for (char each : str.toCharArray()) {
-            if (!(output.contains(each+""))){
+            if (!(output.contains(each + ""))) {
                 output += each;
             }
         }
@@ -39,7 +41,7 @@ public class FindTheUnique_Sabina {
     }
 
 
-    public static Set<Character> uniqueChar(String str){
+    public static Set<Character> uniqueChar(String str) {
 
         Set<Character> unique = new LinkedHashSet<>();
 
@@ -50,4 +52,29 @@ public class FindTheUnique_Sabina {
         return unique;
     }
 
+
+    public static String unique2(String str) {
+
+        Set<Character> set = new LinkedHashSet<>();
+        String result = "";
+
+        for (char outerChar : str.toCharArray()) {
+
+            int count = 0;
+
+            for (char innerChar : str.toCharArray()) {
+                if (outerChar == innerChar){
+                    count++;
+                }
+            }
+
+            if (!set.contains(outerChar) && count == 1) {
+                set.add(outerChar);
+                result += outerChar;
+            }
+
+        }
+        return result;
+
+    }
 }
