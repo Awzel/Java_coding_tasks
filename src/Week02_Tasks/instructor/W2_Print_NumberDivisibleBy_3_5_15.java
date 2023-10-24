@@ -1,4 +1,4 @@
-package src.Week02_Tasks.instructor;
+package Week02_Tasks.instructor;
 
 
 /*Numbers – Divisible by 3, 5, 15

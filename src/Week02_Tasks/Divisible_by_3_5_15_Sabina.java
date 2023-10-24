@@ -1,4 +1,4 @@
-package week2;
+package Week02_Tasks;
 
 public class Divisible_by_3_5_15_Sabina {
     /*
