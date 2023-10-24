@@ -4,7 +4,7 @@ public class PrintConsecutiveNumbers_Elveg {
     public static void main(String[] args) {
         String str ="";
         int N = 100;
-        for(int i = 1; i<N; i++){
+        for(int i = 1; i<=N; i++){
             if(i%2==0){
                 str+="Codility";
             }if (i%3==0) {
