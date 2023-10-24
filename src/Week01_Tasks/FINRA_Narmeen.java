@@ -1,29 +1,33 @@
-package src.Week01_Tasks;
+package Week01_Tasks;
 
-public class FINRA_Alina {
+public class FINRA_Narmeen {
+
     public static void main(String[] args) {
-        Finra();
-
-
+        FINRA();
     }
 
-    public static void Finra() {
-        for (int i = 1; i < 31; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
+    public static void FINRA(){
+
+        for (int i = 1; i <= 30 ; i++) {
+
+            if (i % 3 == 0 && i % 5 ==0){
                 System.out.println("FINRA");
-            } else if (i % 3 == 0) {
-                System.out.println("FIN");
-            } else if (i % 5 == 0) {
+            }else if (i % 3 == 0){
                 System.out.println("RA");
-            } else {
+            }else if (i % 5 == 0) {
+                System.out.println("FIN");
+            }else {
                 System.out.println(i);
             }
 
         }
+
     }
+
 }
+
 /*
-3.FINRA :
+FINRA :
   Write a method which prints out the numbers from 1 to 30 but for numbers which
   are a multiple of 3print "FIN" instead of the number and for numbers which are a
   multiple of 5, print "RA" instead of the number. for numbers which are a multiple of
