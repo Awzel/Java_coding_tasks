@@ -10,12 +10,7 @@ Ex: unique("AAABBBCCCDEF") ==> "DEF";
 
  */
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
-
-public class FindTheUnique {
+public class FindTheUnique_Zulpikar {
 
     public static void main(String[] args) {
 

@@ -9,7 +9,7 @@ Write a return method that can reverse String
 Ex: Reverse("ABCD"); ==> DCBA
 
  */
-public class Reverse {
+public class Reverse_Zulpikar {
 
     public static void main(String[] args) {
 
