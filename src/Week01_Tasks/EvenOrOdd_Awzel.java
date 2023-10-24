@@ -1,6 +1,7 @@
 package Week01_Tasks;
 
-public class DividewithoutOperator_Awzel {
+public class EvenOrOdd_Awzel {
+
     public static void main(String[] args) {
 
         oddOrEven(5);
