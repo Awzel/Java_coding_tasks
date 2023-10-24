@@ -1,48 +1,29 @@
-package src.Week01_Tasks;
+package Week01_Tasks;
 
-public class EvenorOdd_Awzel {
+public class EvenOrOdd_Awzel {
 
     public static void main(String[] args) {
 
-        System.out.println(divide(10,2));
-        System.out.println(divide(-100,-10));
-        System.out.println(divide(500,500));
-        System.out.println(divide(-10,5)); // result != 2 smh
+        oddOrEven(5);
+        oddOrEven(6);
+        oddOrEven(515);
+        oddOrEven(815);
+        oddOrEven(888);
 
     }
-    static int divide(int dividend, int divisor){
 
-
-        if (divisor == 0){
-            throw new ArithmeticException("Can't divide zero");
+    static void oddOrEven(int number) {
+        if (number % 2 == 0){
+            System.out.println(number + " is an odd number");
+        } else {
+            System.out.println(number + " is an even number");
         }
-
-        // we have to handle negative numbers since there won't be any ending to this
-        // for example -1 -1 = -2, -2 -1 = -3, it will go to negative infinity
-
-        if (dividend < 0){
-            dividend = -dividend;
-        }
-        if (divisor < 0){
-            divisor = -divisor;
-        }
-
-        // perform the division using repeated subtraction
-        int quotient = 0;
-        while (dividend >= divisor){
-            dividend -= divisor;
-            quotient++;
-        }
-
-        return quotient;
     }
-
-
-
 
 }
-/*
-2. Numbers -- Divide without/operator
-
-Write a method that can divide two numbers without using division operator
- */
+ /*
+    Write a method which can identify given number is odd or even
+        EX:
+        identify(5)-> "Odd"
+        identify(6)-> "Even"
+     */

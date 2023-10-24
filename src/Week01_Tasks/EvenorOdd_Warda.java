@@ -1,8 +1,8 @@
-package src.Week01_Tasks;
+package Week01_Tasks;
 
 import java.util.Scanner;
 
-public class EvenorOdd_Warda {
+public class EvenOrOdd_Warda {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number");
