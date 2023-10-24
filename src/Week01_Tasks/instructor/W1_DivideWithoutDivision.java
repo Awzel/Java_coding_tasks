@@ -1,4 +1,4 @@
-package src.Week01_Tasks.instructor;
+package Week01_Tasks.instructor;
 
 public class W1_DivideWithoutDivision {
  /*

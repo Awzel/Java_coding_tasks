@@ -1,4 +1,4 @@
-package src.Week03_Tasks.instructor;
+package Week03_Tasks.instructor;
 
 public class W3_Number_Prime {
        /*
