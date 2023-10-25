@@ -1,6 +1,6 @@
-package Week05_Tasks;
+package Week04_Tasks;
 
-public class UniqueString_Warda {
+public class RemoveDuplicate_Warda {
 
     public static void main(String[] args) {
         // In order to remove duplicates
