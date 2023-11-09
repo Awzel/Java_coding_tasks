@@ -1,4 +1,4 @@
-package Week06_Tasks.instructor;
+package Week06_Tasks;
 
 import org.w3c.dom.ls.LSOutput;
 
