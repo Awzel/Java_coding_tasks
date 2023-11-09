@@ -3,12 +3,13 @@ package Week06_Tasks;
 import org.w3c.dom.ls.LSOutput;
 
 public class PasswordValidationTask_Warda {
+    //1. Write a return method that can verify if a password is valid or not. See Below for Details
 
     public static boolean validLoginPassword(String password) {
 
 
         int length = password.length();
-        boolean space = !password.contains(" ");
+        boolean noSpace = !password.contains(" ");
         boolean uppercase = false;
         boolean lowercase = false;
         boolean numbers = false;
@@ -32,7 +33,7 @@ public class PasswordValidationTask_Warda {
         }
 
 
-        if (length >= 6 && space && uppercase && lowercase && numbers) {
+        if (length >= 6 && noSpace && uppercase && lowercase && numbers) {
           return true;
         } else {
             return false;
@@ -60,6 +61,12 @@ requirements:
 if all requirements above are met, the method returns true, otherwise returns false
 
 */
+
+
+
+
+
+
 /* ********************** OPTION #2 *******************************************
         // Define your password criteria
         int minLength = 6;  // Minimum length
