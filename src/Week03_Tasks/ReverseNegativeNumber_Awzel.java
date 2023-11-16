@@ -1,6 +1,6 @@
-package Week03_Tasks.instructor;
+package Week03_Tasks;
 
-public class W3_Reverse_Negative {
+public class ReverseNegativeNumber_Awzel {
 
 
 
@@ -19,11 +19,11 @@ public class W3_Reverse_Negative {
     }
 
 
-        public static int reverseNegativeNumber(int a){
-            return a*(-1);
-        }
+    public static int reverseNegativeNumber(int a){
+        return a*(-1);
+    }
 
-        public static int reverseNum(int  num) {
+    public static int reverseNum(int  num) {
 
         String str = new StringBuilder(""+num).reverse().toString();
 
@@ -37,11 +37,11 @@ public class W3_Reverse_Negative {
 
 
 
-        public static void main(String[] args) {
-            System.out.println(reverseNegativeNumber(-10));
-            System.out.println("revNum() = " + revNum(-541));
-            System.out.println(reverseNum(-53));
-        }
+    public static void main(String[] args) {
+        System.out.println(reverseNegativeNumber(-10));
+        System.out.println("revNum() = " + revNum(-541));
+        System.out.println(reverseNum(-53));
+    }
 
 
 

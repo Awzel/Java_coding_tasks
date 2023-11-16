@@ -1,7 +1,8 @@
-package Week03_Tasks.instructor;
+package Week03_Tasks;
 
-public class W3_Number_Prime {
-       /*
+public class PrimeNumber_Awzel {
+
+     /*
         Write a method that can check if a number is prime or not
      */
 
@@ -21,7 +22,7 @@ public class W3_Number_Prime {
 
     }
 
-// Test 2
+    // Test 2
     public static void main(String[] args) {
         System.out.println("primeNumber() = " + isPrimeNumber(7));
         System.out.println("primeNumber() = " + isPrimeNumber(11));
@@ -30,5 +31,6 @@ public class W3_Number_Prime {
 
 
     }
+
 
 }

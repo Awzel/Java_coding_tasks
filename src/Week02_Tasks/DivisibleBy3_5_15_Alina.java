@@ -1,4 +1,4 @@
-package src.Week02_Tasks;
+package Week02_Tasks;
 
 public class DivisibleBy3_5_15_Alina {
     public static void main(String[] args) {

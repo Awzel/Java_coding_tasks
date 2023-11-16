@@ -1,6 +1,7 @@
-package Week02_Tasks.instructor;
+package Week02_Tasks;
 
-public class W2_Print_Consecutive_numbers {
+public class printConsecutiveNumbers_Awzel {
+
 
 
         /* 22. Q22: Numbers -- print consecutive numbers
