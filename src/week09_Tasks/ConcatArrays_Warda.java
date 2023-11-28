@@ -32,17 +32,18 @@ public class ConcatArrays_Warda {
 /*
 
 Assuming I am working with integers array 1 and Integers array2
-I will need a new integer array and the paramenter for the length would be
+I will need a new integer array and the parameter for the length would be
 array1.length + array2. length, so total length of both the arrays.
-Then I will create a fori loop
-I will need to starting points, since i have two arrays, so i+y
-I will also need the length to be of newarray length
-itieration will be i++ , because we are following the length of new array
+Then I will create a for i loop
+I will need to starting points, since I have two arrays, so i+y
+I will also need the length to be of new array length
+iteration will be i++ , because we are following the length of new array
 
 in the loop :
-if I is less than the length of array 1,
+if i is less than the length of array 1,
 we can add the elements of array 1at index i into new array index i
 otherwise, new array index i is equal to array2 index y
+Because we want the index# of array 2 to continue we will just say y++ within the square brackets
 
 return would be array int
 
