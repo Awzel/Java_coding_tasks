@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class MoveZeroToEndArray_Warda {
     public static void main(String[] args) {
         int[] arr = {0,2,0,9,0,7,8};
-        System.out.println("movetozeo(arr) = " + Arrays.toString(movetozeo(arr)));
+        System.out.println("movetozeo(arr) = " + Arrays.toString(movetozero(arr)));
 
 
     }
 
-    public static int[] movetozeo(int[] arr){
+    public static int[] movetozero(int[] arr){
 
         int[] arr2= new int[arr.length];
         int indexnumber = 0;
