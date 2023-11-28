@@ -20,7 +20,7 @@ public class UniqueIntegersArray_Warda {
             int num;
             do {
                 num = random.nextInt(10) * (random.nextBoolean() ? 1 : -1);
-                //  random.nextInt(200)-100; to control the range
+
             } while (uniqueSet.contains(num));
             uniqueSet.add(num);
             result[i] = num;
@@ -33,14 +33,3 @@ public class UniqueIntegersArray_Warda {
 
     }
 }
-/*
-First I would create a variable of all the things I need to do the test
-That would be arrayed, sum , random class obj, hashset obj
-Then I will do a loop based on the length of my parameter defined in the method
-I will create a variable called num, along with a do while statement
-do : get me random number upto 10, multiply with random boolean answer with either 1 or -1
-while : hashset contains the number we just generated
-otherwise
-add the number to hashset , and add it to the array at index number of an i, also add the number to sum variable
-after the loop is done at the last index # of the array , take total sum * -1
- */
