@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-public class UniqueIntegersArray {
+public class UniqueIntegersArray_Warda {
     public static void main(String[] args) {
         System.out.println("uniqueSumArray(4) = " + Arrays.toString(uniqueArray(4)));
 
