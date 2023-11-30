@@ -3,6 +3,12 @@ package week09_Tasks;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+3) ArrayList - Remove values
+Given a list of Integers 1,2,3,4,5,6 ... etc. remove all values grater than 100.
+* */
+
 public class RemoveValues_Zulpikar {
 
     public static void main(String[] args) {
