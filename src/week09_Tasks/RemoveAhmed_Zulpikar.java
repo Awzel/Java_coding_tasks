@@ -18,6 +18,7 @@ public class RemoveAhmed_Zulpikar {
     public static void main(String[] args) {
         List<String> namesList = new ArrayList<>(Arrays.asList("Ahmad", "John", "Eric", "Ahmad"));
         System.out.println(removeAhmed(namesList));
+        System.out.println(removeAhmed2(namesList));
     }
 
     public static List<String> removeAhmed(List<String> names) {
@@ -29,4 +30,11 @@ public class RemoveAhmed_Zulpikar {
         }
         return updatedNames;
     }
+
+    public static List<String> removeAhmed2(List<String> names){
+        List<String> modifiedNames = new ArrayList<>(names); // it is better to keep the original list remains unchanged
+        modifiedNames.removeIf(p -> p.equals("Ahmad"));
+        return modifiedNames;
+    }
+
 }
