@@ -9,6 +9,7 @@ public class UniqueIntegersArray_Warda {
     public static void main(String[] args) {
         System.out.println("uniqueSumArray(4) = " + Arrays.toString(uniqueArray(4)));
 
+
     }
 
     public static int[] uniqueArray(int n){
