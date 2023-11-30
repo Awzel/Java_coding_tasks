@@ -2,7 +2,7 @@ package week09_Tasks;
 
 import java.util.ArrayList;
 
-public class RemoveAhmed_Warda {
+public class ArrayListRemoveString_Warda {
     public static void main(String[] args) {
         ArrayList<String> names = new ArrayList<>();
         names.add("Ahmad");
