@@ -42,7 +42,7 @@ public class PasswordValidationTask_Warda {
 
 /* ****************************************************************************************************** */
     public static void main(String[] args) {
-        String password = "Ab@5678";
+        String password = "Ab5678";
         System.out.println("Your Password is valid = " + validLoginPassword(password));
     }
 
