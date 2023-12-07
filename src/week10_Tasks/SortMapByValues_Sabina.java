@@ -22,7 +22,7 @@ public class SortMapByValues_Sabina {
         Collections.sort(values);
         System.out.println("values = " + values);
 
-        while (values.iterator().hasNext()){
+      /*  while (values.iterator().hasNext()){
             for (String value : values) {
                 System.out.println("value = " + value);
                 for (int i = 0; i < value.length(); i++) {
@@ -37,15 +37,18 @@ public class SortMapByValues_Sabina {
             }
         }
 
+       */
+
         System.out.println(sortTheMapByValue(words));
 
         Map<Integer, Integer> nums = new LinkedHashMap<>();
-        nums.put(1, 7);
-        nums.put(2, 4);
-        nums.put(3, 9);
-        nums.put(4, 0);
+        nums.put(4, 7);
+        nums.put(5, 4);
+        nums.put(6, 9);
+        nums.put(7, 0);
         //System.out.println("nums = " + nums);
         //System.out.println(sortTheMapByValueInt(nums));
+        System.out.println("nums.keySet() = " + nums.keySet());
 
     }
 
@@ -76,9 +79,6 @@ public class SortMapByValues_Sabina {
 
         for (String value : values) {
         }
-
-
-
 
 
         return result;

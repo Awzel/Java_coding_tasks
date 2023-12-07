@@ -17,12 +17,14 @@ public class ArrayListSortingInAsc_Sabina {
         System.out.println("sortAsc(nums) = " + sortAscInt(nums));
         System.out.println("sortAsc2(nums) = " + sortAscIntWithCollections(nums));
 
+
         ArrayList<Character> characters = new ArrayList<>(Arrays.asList('a','f','b','y'));
         System.out.println("sortAsc3(characters) = " + sortAscChar(characters));
         System.out.println("sortAsc4(characters) = " + sortAscCharWithCollections(characters));
 
 
     }
+
 
     public static ArrayList<Integer> sortAscInt(ArrayList<Integer> nums){
 
