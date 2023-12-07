@@ -18,12 +18,26 @@ public class SortMapByValues_Sabina {
         Map<String, String> result = new LinkedHashMap<>();
 
         List<String> values = new ArrayList<>(words.values());
+
+        Collections.sort(values);
         System.out.println("values = " + values);
-        for (String value : values) {
-            System.out.println("value = " + value);
+
+        while (values.iterator().hasNext()){
+            for (String value : values) {
+                System.out.println("value = " + value);
+                for (int i = 0; i < value.length(); i++) {
+
+                        char char1 = values.get(i + 1).charAt(i);
+                        char char2 = value.charAt(i);
+                        if ((int)char1 < (int)char2){
+
+                        }
+
+                }
+            }
         }
 
-        //System.out.println(sortTheMapByValue(words));
+        System.out.println(sortTheMapByValue(words));
 
         Map<Integer, Integer> nums = new LinkedHashMap<>();
         nums.put(1, 7);
@@ -41,7 +55,7 @@ public class SortMapByValues_Sabina {
         ArrayList<Integer> copy = new ArrayList<>(nums.values());
 
         //Collections.sort(copy);
-        copy = ArrayListSortingInAsc_Sabina.sortAsc(copy);
+        copy = ArrayListSortingInAsc_Sabina.sortAscInt(copy);
         System.out.println("copy = " + copy);
 
         for (Integer key : result.keySet()) {

@@ -14,17 +14,17 @@ public class ArrayListSortingInAsc_Sabina {
     public static void main(String[] args) {
 
         ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(4,8,3,-5,4,7,9,2));
-        System.out.println("sortAsc(nums) = " + sortAsc(nums));
-        System.out.println("sortAsc2(nums) = " + sortAsc2(nums));
+        System.out.println("sortAsc(nums) = " + sortAscInt(nums));
+        System.out.println("sortAsc2(nums) = " + sortAscIntWithCollections(nums));
 
         ArrayList<Character> characters = new ArrayList<>(Arrays.asList('a','f','b','y'));
-        System.out.println("sortAsc3(characters) = " + sortAsc3(characters));
-        System.out.println("sortAsc4(characters) = " + sortAsc4(characters));
+        System.out.println("sortAsc3(characters) = " + sortAscChar(characters));
+        System.out.println("sortAsc4(characters) = " + sortAscCharWithCollections(characters));
 
 
     }
 
-    public static ArrayList<Integer> sortAsc(ArrayList<Integer> nums){
+    public static ArrayList<Integer> sortAscInt(ArrayList<Integer> nums){
 
         ArrayList<Integer> numbers = new ArrayList<>(nums);
 
@@ -46,7 +46,7 @@ public class ArrayListSortingInAsc_Sabina {
         return result;
     }
 
-    public static ArrayList<Integer> sortAsc2(ArrayList<Integer> nums){
+    public static ArrayList<Integer> sortAscIntWithCollections(ArrayList<Integer> nums){
 
         ArrayList<Integer> numbers = new ArrayList<>(nums);
 
@@ -62,7 +62,7 @@ public class ArrayListSortingInAsc_Sabina {
     }
 
 
-    public static ArrayList<Character> sortAsc3(ArrayList<Character> characters){
+    public static ArrayList<Character> sortAscChar(ArrayList<Character> characters){
 
         ArrayList<Character> copy = new ArrayList<>(characters);
 
@@ -85,7 +85,7 @@ public class ArrayListSortingInAsc_Sabina {
 
     }
 
-    public static List<Character> sortAsc4(ArrayList<Character> characters) {
+    public static List<Character> sortAscCharWithCollections(ArrayList<Character> characters) {
 
         List<Integer> copy = new ArrayList<>();
 
