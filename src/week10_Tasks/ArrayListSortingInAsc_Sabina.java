@@ -1,4 +1,4 @@
-package week09_Tasks;
+package week10_Tasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -53,9 +53,9 @@ public class ArrayListSortingInAsc_Sabina {
         ArrayList<Integer> result = new ArrayList<>();
 
         while(!numbers.isEmpty()) {
-            Integer min = Collections.min(numbers);
+            int min = Collections.min(numbers);
             result.add(min);
-            numbers.remove(min);
+            numbers.remove(numbers.indexOf(min));
         }
 
         return result;
