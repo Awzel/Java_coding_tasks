@@ -13,24 +13,41 @@ public class FINRA_Zulpikar {
     public static void main(String[] args) {
 
         printFINRA();
+        System.out.println();
+        printFINRA2();
     }
 
-    public static void printFINRA(){
+    public static void printFINRA() {
 
-        for (int i = 1; i <= 30 ; i++) {
+        for (int i = 1; i <= 30; i++) {
 
-            if ( i % 3 == 0 && i % 5 == 0){
-                System.out.println("FINRA");
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("FINRA");
             } else if (i % 3 == 0) {
-                System.out.println("RA");
-            } else if (i % 5 ==0){
-                System.out.println("FIN");
+                System.out.print("FIN");
+            } else if (i % 5 == 0) {
+                System.out.print("RA");
             } else {
-                System.out.println(i);
+                System.out.print(i);
             }
         }
 
     }
 
 
+    public static void printFINRA2() {
+
+        for (int i = 1; i <= 30; i++) {
+            String print = "";
+
+            if (i % 3 == 0) print = "FIN";
+            if (i % 5 == 0) print += "RA";
+
+            if (print.isEmpty()) {
+                System.out.print(i);
+            } else {
+                System.out.print(print);
+            }
+        }
+    }
 }
